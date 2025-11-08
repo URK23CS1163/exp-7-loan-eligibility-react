@@ -11,6 +11,7 @@ function toNumber(v: string) {
 }
 
 export default function App() {
+  console.log('App loaded') // Debug log
   const [name, setName] = useState('')
   const [age, setAge] = useState('')
   const [monthlySalary, setMonthlySalary] = useState('')
